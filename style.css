@@ -4,3 +4,9 @@ body {
   -ms-user-select: none;     /* Internet Explorer/Edge (older versions) */
   user-select: none;          /* Standard syntax for Chrome, Edge, Opera */
 }
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
