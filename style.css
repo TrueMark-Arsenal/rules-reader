@@ -1,3 +1,6 @@
 body {
-  user-select: none;
+  -webkit-user-select: none; /* Safari and iOS Safari */
+  -moz-user-select: none;    /* Firefox (older versions) */
+  -ms-user-select: none;     /* Internet Explorer/Edge (older versions) */
+  user-select: none;          /* Standard syntax for Chrome, Edge, Opera */
 }
